@@ -1,0 +1,236 @@
+body {
+  font-family: "Jost";
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.main-header .logo span {
+  font-size: 48px;
+  color: #355EFC;
+  font-weight: 600;
+}
+.main-header nav {
+  font-family: "Open Sans";
+}
+.main-header nav ul li:hover a {
+  color: #355EFC !important;
+}
+.main-header nav ul .icone {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgba(53, 93, 252, 0.2);
+  margin: 0 10px;
+}
+.main-header nav ul .icone i {
+  text-align: center;
+  display: block;
+  padding-top: 22%;
+}
+
+.banner img {
+  width: 100%;
+}
+.banner .banner-anchor {
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+
+.about img {
+  width: 100%;
+}
+
+.carousel-caption h2 {
+  color: #011A41;
+}
+
+.p-80 {
+  padding: 80px 0;
+}
+
+.Open-Sans {
+  font-family: "Open Sans";
+}
+
+.counter,
+.form {
+  background: linear-gradient(rgba(53, 94, 252, 0.95), rgba(53, 94, 252, 0.95)), url(../img/bg.png);
+}
+
+.Services img {
+  width: 100%;
+}
+
+.card i {
+  color: #355EFC;
+}
+.card .card-subtitle {
+  color: black !important;
+}
+.card:hover {
+  transition: all 0.5s;
+  color: white;
+  background-color: #355EFC;
+}
+.card:hover a,
+.card:hover i {
+  color: white;
+}
+.card:hover .card-subtitle {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-pills .nav-link.active span {
+  color: white !important;
+  background-color: transparent;
+}
+
+.fom-btn {
+  padding: 15px 290px;
+}
+
+.project .home {
+  padding-top: 500PX;
+}
+.project .img-box2 {
+  z-index: 2;
+}
+.project .img-box2 img {
+  height: 390px;
+}
+.project .img-box2:hover .icon-box {
+  opacity: 5;
+}
+.project .img-box2:hover .project-back {
+  background-color: #355EFC;
+  color: white;
+  border-color: #355EFC !important;
+}
+.project .img-box2 .box2,
+.project .img-box2 .box3 {
+  width: 358px;
+}
+.project .project-back {
+  top: 50px;
+  z-index: -1;
+  transition: all 0.5s;
+  left: 50px;
+}
+.project .icon-box {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.project .swiper-slide {
+  padding-bottom: 50px;
+}
+
+.project-slider .swiper-horizontal > .project-slider .swiper-pagination-bullets,
+.project-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: none;
+}
+
+.team .img-box2:hover > .project-back {
+  background-color: #355EFC;
+  color: white;
+  border-color: #355EFC !important;
+}
+.team .project-back {
+  top: -50px;
+  height: 550px;
+  width: 250px;
+  z-index: -1;
+  transition: all 0.5s;
+  left: 80px;
+}
+.team span {
+  padding-top: 10px;
+}
+.team .box4 {
+  height: 490px;
+  padding-bottom: 20px;
+}
+.team .box4 a {
+  background-color: #dfe4fd;
+  color: #355EFC;
+}
+
+.Testimonial {
+  padding-top: 100px;
+}
+.Testimonial .swiper-pagination-bullet {
+  border: 2px solid #355EFC;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-clip: content-box;
+  background-color: #355EFC;
+}
+
+footer {
+  background-color: #011A41;
+  margin-top: 200px;
+}
+footer .f-icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: all 0.5s;
+}
+footer .f-icone i {
+  line-height: 40px;
+  display: block;
+  margin: auto;
+  z-index: 2;
+}
+footer .f-icone:hover {
+  background-color: white;
+}
+footer .f-icone:hover i {
+  color: #011A41 !important;
+}
+footer .footer a {
+  transition: all 0.5s;
+  color: white;
+}
+footer .footer a:hover {
+  color: #355EFC;
+}
+
+.Testimonial .box-te::after {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  bottom: 0;
+  transform: rotate(45deg) translateY(75%);
+  left: 50%;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+.Testimonial .box-te::before {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  content: "\f6b0";
+  font-family: bootstrap-icons !important;
+  background-color: white;
+  color: #355EFC;
+  top: 0;
+  font-size: 35px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  border: 1px solid #dee2e6;
+}
+
+.serfoot {
+  margin-top: 400px;
+}/*# sourceMappingURL=style.css.map */
